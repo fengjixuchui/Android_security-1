@@ -9,6 +9,8 @@ TODO:
 
 ## 语言
 * c、c++、java、javascript、python、scala、smali
+* 逆向工程 
+  https://beginners.re/RE4B-CN-partial/html/RE4B-CN-partial.html
 
 ## 技能
 

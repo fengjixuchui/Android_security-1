@@ -6,17 +6,7 @@ ref:https://docs.google.com/presentation/d/1cqiHIosidNXZTT7GiRmfz86JbCCuKrK14Own
 * DEMO on all tree steps
 * Website walkthrough
 
-1. Example of APIs: HTTP request
+https://developer.android.com/docs/
+https://developer.android.com/guide/
+https://developer.android.com/reference/
 
-URL url = new URL("http://www.android.com/");
-HttpURLConnection urlConnection = (HttpURLConnection)
-url.openConnection();
-try{
-	InputStream in = new BufferedInputStream(urlConnection.getInputStream());
-	readStream(in);
-}finally{
-	urlConnection.disconnect();
-}
-
-Log.i("MYAPP","Logging a message");
-Log.e("MOBISEC","Test message");
