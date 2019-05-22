@@ -62,7 +62,13 @@ demuxer 直接处理文件格式，把里面的各项内容都找出来
 
 https://github.com/floyd-fuh/afl-crash-analyzer/blob/master/testcases/ffmpeg/install.sh 
 
-CC="/usr/local/bin/afl-clang" CXX="/usr/local/bin/afl-clang++" ./configure --prefix="/home/miy1z1ki/ffmpeg_build" --pkg-config-flags="--static" --extra-cflags="-I/home/miy1z1ki/ffmpeg_build/include -c -fsanitize=address -O0 -g -v" --extra-cxxflags="-I/home/miy1z1ki/ffmpeg_build/include -c -fsanitize=address -O0 -g -v" --extra-ldflags="-L/home/miy1z1ki/ffmpeg_build/lib -fsanitize=address" --extra-libs="-lpthread -lm" --bindir="/home/miy1z1ki/bin" --enable-gpl --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libmp3lame --enable-libvorbis --enable-libvpx --enable-nonfree   
+CC="/usr/local/bin/afl-clang" CXX="/usr/local/bin/afl-clang++" ./configure --prefix="/home/miy1z1ki/ffmpeg_build" --pkg-config-flags="--static" --extra-cflags="-I/home/miy1z1ki/ffmpeg_build/include -c -fsanitize=address -O0 -g -v" --extra-cxxflags="-I/home/miy1z1ki/ffmpeg_build/include -c -fsanitize=address -O0 -g -v" --extra-ldflags="-L/home/miy1z1ki/ffmpeg_build/lib -fsanitize=address" --extra-libs="-lpthread -lm" --bindir="/home/miy1z1ki/bin" --enable-gpl --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libmp3lame --enable-libvorbis --enable-libvpx --enable-nonfree  
+
+'''
+
+configuration: --prefix='/home/miy1z1ki/ffmpeg_build' --pkg-config-flags='--static' --extra-cflags='-I/home/miy1z1ki/ffmpeg_build/include -c -fsanitize=address -O0 -g -v' --extra-cxxflags='-I/home/miy1z1ki/ffmpeg_build/include -c -fsanitize=address -O0 -g -v' --extra-ldflags='-L/home/miy1z1ki/ffmpeg_build/lib -fsanitize=address' --extra-libs='-lpthread -lm' --bindir=/home/miy1z1ki/bin --enable-gpl --enable-libass --enable-libfreetype --enable-libmp3lame --enable-libvorbis --enable-libvpx --enable-nonfree --disable-x86asm。 --cc=/usr/local/bin/afl-gcc --cxx=/usr/local/bin/afl-g++ --assert-level=2
+
+''' 
 
 ## ffmpeg历年漏洞
 见FFmpeg漏洞.md

@@ -251,10 +251,75 @@ ape文件头的数据存储形式受版本号fileversion和格式标志位 forma
 	主要是把seektable和bittable的表项解析出来，而seektable在实现seek跳转的时候非常重要。其中pb是文件指针
 
 
+init_input 打开input file 如有需要 probe 格式
+if (
+	(s->iformat && s->iformat->flags & AVFMT_NOFILE )
+	||
+	(!s->iformat && 
+		(
+			s->iformat = av_probe_input_format2(&pd,0,&score)
+		)
+		)
+	)
 
+	return score
+
+p *s->iformat
+$18 = {
+  name = 0x18e3fe9 "ape", 
+  long_name = 0x16e0b48 "Monkey's Audio", 
+  flags = 0x0, 
+  extensions = 0x16e0b57 "ape,apl,mac", 
+  codec_tag = 0x0, 
+  priv_class = 0x0, 
+  mime_type = 0x0, 
+  next = 0x1d90b60 <ff_apng_demuxer>, 
+  raw_codec_id = 0x0, 
+  priv_data_size = 0x70, 
+  read_probe = 0x781870 <ape_probe>, 
+  read_header = 0x781be0 <ape_read_header>, 
+  read_packet = 0x7819b0 <ape_read_packet>, 
+  read_close = 0x781960 <ape_read_close>, 
+  read_seek = 0x7818c0 <ape_read_seek>, 
+  read_timestamp = 0x0, 
+  read_play = 0x0, 
+  read_pause = 0x0, 
+  read_seek2 = 0x0, 
+  get_device_list = 0x0, 
+  create_device_capabilities = 0x0, 
+  free_device_capabilities = 0x0
+}
+
+
+AVInputFormat *ffmt = 
+
+
+应该是patch好了，然后去下载各种各样的音频、视频
+
+提升stating corpus 的质量。
+
+for循环遍历目录下每个文件，使用afl-tmin，达到最小化为一个名字相同，多了.min扩展名文件。这样可以把*.min复制到作为AFL的种子的文件夹。
+
+1.
+	afl-cmin -i input_dir -o output_dir -- /path/to/tested/program [params] @@
+	
+2.
+	使用方法
+	$ afl-tmin -i input_file -o output_file -- /path/to/tested/program [params] @@
+	可以用for循环
+	afl-tmin接受单个文件输入，所以可以用一条简单的shell脚本批量处理。如果语料库中文件数量特别多，且体积特别大的情况下，这个过程可能花费几天甚至更长的时间！
+	for i in *; do afl-tmin -i $i -o tmin-$i -- ~/path/to/tested/program [params] @@; done;
+
+	for i in *; do afl-tmin -i $i -o $i.min -- ~/parse; done;
+	mkdir ~/testcases && cp *.min ~/testcases
+
+
+	./ffmpeg_g -f ape -i ../../data/seed/12396183-Jamfile.jam test.mp3
 
 '''
-### decode
+### decode 好像没时间去弄这一部分or以后弄
+
+
 # 联系方式
 	https://monkeysaudio.com/contact.html
 	mail@monkeysaudio.com
