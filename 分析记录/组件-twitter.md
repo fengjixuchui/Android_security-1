@@ -19,3 +19,5 @@ news in 2013
 A New Vulnerability in the Android Framework: Fragment Injection.
 vulnerability: Settings,Gmail,Google Now,DropBox and Evernote.
 Any App which extended the PreferenceActivity class exported was automatically vulnerable.it is due to the Android KitKat patch which requires applications to override the new method, PreferenceActivity.isValidFragment,
+
+# Twitter不安全存储

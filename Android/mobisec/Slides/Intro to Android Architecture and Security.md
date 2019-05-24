@@ -61,3 +61,23 @@ ref
 
 --------------
 
+{READ,WRITE}_EXTERNAL_STORAGE_
+- Each app has access to a private directory
+- The device offers an "external storage"
+	In the past:physical "removable" SD Card
+	Currently: part of the file system that apps can use to share files
+	"/sdcard"
+
+--------------
+
+Permissions Protection Levels
+- Normal 
+	- The system automatically grants the app that permission at install time.The system doesn't prompt the user to grant normal permissions, and users cannot revoke these permissions.
+- Dangerous
+	- To use a dangerous permission,your app must prompt the user to grant permission at runtime.
+
+
+--------------
+
+Runtime vs Install-time Prompts
+

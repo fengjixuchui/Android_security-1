@@ -1,4 +1,4 @@
-# Android_security
+f# Android_security
 > 仅为私人的成长笔记，记录下来，聊表心意。
 > one crash one day ， graduate one day。
 ## Android的功能
@@ -171,6 +171,9 @@ RSS、相关博文 【RSS订阅】TODO 推送吧
 * monkey(1个月)
 		ffmeg
 		chrome
+
+### Reverse 
+* RE4B
 
 ### 熟悉漏洞
 * 各组件漏洞积累
