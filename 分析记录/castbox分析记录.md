@@ -9,10 +9,14 @@
 
 ### 可能的攻击面
 
-### Castbox使用了Google开源的机器学习框架——TensorFlow以及自然语言处理（NLP）对用户偏好进行分析 ，从而提供精准的个性化推荐。
-为了确保算法的准确性，Castbox团队在TensorFlow的基础上加入了自己的影响因子
+### 1
 
-### Castbox推出了一款新的加密货币钱包BoxWallet
+    Castbox使用了Google开源的机器学习框架——TensorFlow以及自然语言处理（NLP）对用户偏好进行分析 ，从而提供精准的个性化推荐。
+    为了确保算法的准确性，Castbox团队在TensorFlow的基础上加入了自己的影响因子
+
+### 2
+
+Castbox推出了一款新的加密货币钱包BoxWallet
 --> wallet vulnerability
 ---> get 敏感信息
     捕wallet与货币的流量 case 
@@ -32,12 +36,18 @@
 
 *  下一步-->
 
-### 可以解析音频内容
+### 3
+
+可以解析音频内容
 * 下一步--> native层 使用的库
 
-### 查看通信网络
+### 4
+
+查看通信网络
 * 下一步-->http?
 
-### 360显危镜
+### 5
+
+360显危镜
 * 下一步--> unzip解压缩
 	Lcom/airbnb/lottie/f; b
