@@ -2,7 +2,12 @@
 
 # castbox的功能
 
-## castbox特殊功能
+## castbox功能
+* 使用tensorflow 提供个性化推荐
+* BoxWallet
+* 解析音频
+
+### 可能的攻击面
 
 ### Castbox使用了Google开源的机器学习框架——TensorFlow以及自然语言处理（NLP）对用户偏好进行分析 ，从而提供精准的个性化推荐。
 为了确保算法的准确性，Castbox团队在TensorFlow的基础上加入了自己的影响因子
@@ -25,7 +30,14 @@
 * 2018年6月1日，Castbox推出了一款新的加密货币钱包——BoxWallet，BoxWallet将被嵌入到Castbox中，用户可以直接在Castbox中进行以太坊和BOX代币的兑换。
 为Castbox的区块链支付系统提供支持的正是此前与其达成战略合作关系的ContentBox
 
-
+*  下一步-->
 
 ### 可以解析音频内容
---> native层 使用的库
+* 下一步--> native层 使用的库
+
+### 查看通信网络
+* 下一步-->http?
+
+### 360显危镜
+* 下一步--> unzip解压缩
+	Lcom/airbnb/lottie/f; b
