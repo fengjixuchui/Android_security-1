@@ -1,4 +1,4 @@
-f# Android_security
+# Android_security
 > 仅为私人的成长笔记，记录下来，聊表心意。
 > one crash one day ， graduate one day。
 ## Android的功能
