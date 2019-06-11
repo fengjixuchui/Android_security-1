@@ -17,15 +17,20 @@
 ### 2
 
 Castbox推出了一款新的加密货币钱包BoxWallet
+
 --> wallet vulnerability
+
 ---> get 敏感信息
     捕wallet与货币的流量 case 
  	McAfee’s ‘unhackable’ cryptocurrency wallet has been hacked
+
 ---> 获取电话信息中授权的信息
+
 	1.ss7 Signaling System No 7 (SS7) protocol  sms协议的漏洞
 	    只要能获取到名字，姓氏和电话号码，研究人员就能够得到与钱包相关联的电子邮件地址，获得对钱包的控制权，并获得对钱包本身的访问权限，包括 撤回资金。
 	    https://betanews.com/2017/09/18/network-flaws-bitcoin-wallets/
 	    2017年
+	    
     2.webview 
 	是一个 rce，解析html code ->auto dialer -> wallet
 	2016年
