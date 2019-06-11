@@ -7,7 +7,7 @@
 * BoxWallet
 * 解析音频
 
-### 可能的攻击面
+## 分析可以进行的下一步操作
 
 ### 1
 
@@ -34,20 +34,22 @@ Castbox推出了一款新的加密货币钱包BoxWallet
 * 2018年6月1日，Castbox推出了一款新的加密货币钱包——BoxWallet，BoxWallet将被嵌入到Castbox中，用户可以直接在Castbox中进行以太坊和BOX代币的兑换。
 为Castbox的区块链支付系统提供支持的正是此前与其达成战略合作关系的ContentBox
 
-*  下一步-->
+下一步-->？？
 
 ### 3
 
-可以解析音频内容
-* 下一步--> native层 使用的库
+Castpod可以解析音频内容
+
+下一步--> native层 使用的库
 
 ### 4
 
 查看通信网络
-* 下一步-->http?
+
+下一步-->http?
 
 ### 5
 
-360显危镜
+基于360显危镜
 * 下一步--> unzip解压缩
 	Lcom/airbnb/lottie/f; b
