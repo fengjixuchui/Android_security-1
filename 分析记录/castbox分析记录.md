@@ -17,7 +17,7 @@ What and How
 	- File-system, network, inter-component communications, etc.
 
 * How does the app interact with network endpoints?
-* How does it store private information?
+* How does it store private information? 还未
 * Check whether a functionality can be abused?
 
 
@@ -78,6 +78,7 @@ check over
 ### 5
 
 基于360显危镜
+http://appscan.360.cn/app/d73e92b14f75e7706a0b8a9367cc7931/report/
 * 下一步--> unzip解压缩
 	Lcom/airbnb/lottie/f; b
 
@@ -110,7 +111,15 @@ check over
 ### 6
 
 非安全存储
+都用的是ssl加密协议
 
 ### 7
 
 导出组件
+fm.castbox.player.CastboxMediaReceiver 导出
+继承于MediaButtonReceiver
+接收多媒体按钮广播的，常用于耳机等多媒体设备的按键监听。
+fm.castbox.player.CastboxMediaReceiver
+
+接受指定包名的广播，translates，
+是否可以伪造包， 不能算是安全问题

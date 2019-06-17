@@ -1,6 +1,7 @@
 # Android_security
 > 仅为私人的成长笔记，记录下来，聊表心意。
 > one crash one day ， graduate one day。
+> 攻击向量对程序的控制能力、影响范围
 ## Android的功能
 * Android生态圈
 TODO:
@@ -55,6 +56,7 @@ TODO:
 ## 漏洞信息来源
 
 RSS、相关博文 【RSS订阅】TODO 推送吧
+
 
 ### Android知识的正确基础
 
@@ -149,6 +151,11 @@ RSS、相关博文 【RSS订阅】TODO 推送吧
 
       > https://github.com/B3nac/Android-Reports-and-Resources
 
+      华为、小米、三星、oppo、vivo
+      华为
+
+      > https://bugbounty.huawei.com/hbp/#/program/detail?id=1
+      
 ## 漏洞挖掘工具
 
 ## 工具与方法论沉淀
@@ -168,9 +175,6 @@ RSS、相关博文 【RSS订阅】TODO 推送吧
 * xxxx（移动app分析）
 
 ### Fuzz
-* monkey(1个月)
-		ffmeg
-		chrome
 
 ### Reverse 
 * RE4B
