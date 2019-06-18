@@ -4,9 +4,6 @@
 > 攻击向量对程序的控制能力、影响范围
 ## Android的功能
 * Android生态圈
-TODO:
-* 各个组件，存的漏洞类型，这些漏洞的利用可能性有多大，被利用之后分别会产生什么样的效果
-这个放在 各组件漏洞积累里
 
 ## 语言
 * c、c++、java、javascript、python、scala、smali
@@ -18,6 +15,12 @@ TODO:
 * 看洞
 
 	历史漏洞的git log、bug报告、从非 lib 目录下等
+  - 跟踪每年发现的bug很重要
+    track them and convenient way to address them
+    考虑具体的细节，在讨论这些bug的细节时
+  - 描述在受影响组件的安全更新中修复了哪些漏洞
+
+CVE，type，component affected,severity,relevant threat models,attack vectors。
 
 * 识洞
 
@@ -156,6 +159,28 @@ RSS、相关博文 【RSS订阅】TODO 推送吧
 
       > https://bugbounty.huawei.com/hbp/#/program/detail?id=1
       
+      oppo
+
+      > https://security.oppo.com
+
+      各应用的安全榜单
+
+      滴滴
+
+      > http://sec.didichuxing.com/loophole
+
+      腾讯
+
+      > https://security.tencent.com/index.php/report/add
+
+      360 
+
+      > https://security.360.cn/Reward/reward
+
+      蚂蚁金服
+
+      > https://security.alipay.com
+
 ## 漏洞挖掘工具
 
 ## 工具与方法论沉淀
