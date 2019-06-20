@@ -1,0 +1,8 @@
+# Google Podcasts
+
+Google推出了一款适用于Android的新版独立播客应用程序。这款名为Google Podcasts的应用程序将使用Google的推荐算法，努力将人们与他们可能喜欢的节目联系起来，这些节目可以根据他们的聆听习惯进行。虽然以前通过Google Play音乐和第三方应用在Android上提供播客，但Google表示，该公司期望播客将这种形式带给全球数以亿计的新听众。
+
+可以从浏览器打开
+
+怀疑是apk插件，有mainactivity 不是apk插件
+
